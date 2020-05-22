@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Application for managing schedules of beauty salons, barber shops and so one.
+  Application for managing schedules of beauty salons, barber shops and so on.
 </h3>
 
 <p align="center">
