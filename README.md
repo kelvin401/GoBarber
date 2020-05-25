@@ -19,19 +19,19 @@ leaving all the administrative part regarding schedules at the expense of the ap
 
 ## 📋 Project Status
 
-Follow the progress of the project below
+Follow the status of the project below
 
-|   **Project**   |  **Status**  |
-| :---         | :---:           |
-| [Backend](https://github.com/kelvin401/GoBarber/tree/master/backend)   |✔      |
-| [Frontend](https://github.com/kelvin401/GoBarber/tree/master/frontend) |✔      |
-| [Mobile](https://github.com/kelvin401/GoBarber/tree/master/) | Under Construction |
-
+| **Project**                                                            |     **Status**     |
+| :--------------------------------------------------------------------- | :----------------: |
+| [Backend](https://github.com/kelvin401/GoBarber/tree/master/backend)   |         ✔          |
+| [Frontend](https://github.com/kelvin401/GoBarber/tree/master/frontend) | Under Construction |
+| [Mobile](https://github.com/kelvin401/GoBarber/tree/master/)           | Under Construction |
 
 ## 👨‍💻 Author
 
 My name is [Kelvin Carvalho](https://www.linkedin.com/in/meetkelvincarvalho).
-Student of systems analysis and development at Unisa, in parallel, participating in [Rocketseat's](https://github.com/rocketseat) GoStack, acquiring more knowledge about technologies 
-* React
-* React Native and 
-* Node JS
+Student of systems analysis and development at Unisa, in parallel, participating in [Rocketseat's](https://github.com/rocketseat) GoStack, acquiring more knowledge about technologies
+
+- React
+- React Native and
+- Node JS
