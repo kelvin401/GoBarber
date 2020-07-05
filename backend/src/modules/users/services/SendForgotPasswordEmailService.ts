@@ -28,7 +28,7 @@ class SendForgotPasswordEmailService {
       throw new AppError('User does not exists.');
     }
 
-    // await this.userTokensRepository.generate(user.id);
+    await this.userTokensRepository.generate(user.id);
 
     await this.mailProvider.sendMail(
       email,
