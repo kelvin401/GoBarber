@@ -16,8 +16,6 @@ export default class UsersController {
       password,
     });
 
-    delete user.password;
-
-    return response.status(200).json(classToClass(user));
+    return response.json(classToClass(user));
   }
 }

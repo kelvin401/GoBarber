@@ -2,8 +2,8 @@ import {
   Entity,
   Column,
   PrimaryGeneratedColumn,
-  UpdateDateColumn,
   CreateDateColumn,
+  UpdateDateColumn,
 } from 'typeorm';
 
 import uploadConfig from '@config/upload';
@@ -22,11 +22,11 @@ class User {
   email: string;
 
   @Column()
-  @Exclude()
-  password: string;
+  avatar: string;
 
   @Column()
-  avatar: string;
+  @Exclude()
+  password: string;
 
   @CreateDateColumn()
   created_at: Date;
@@ -44,7 +44,7 @@ class User {
       case 'disk':
         return `${process.env.APP_API_URL}/files/${this.avatar}`;
       case 's3':
-        return `http://${uploadConfig.config.aws.bucket}/s3.amazon.com/${this.avatar}`;
+        return `https://${uploadConfig.config.aws.bucket}.s3.amazonws.com/${this.avatar}`;
       default:
         return null;
     }
