@@ -40,7 +40,6 @@ class UsersRepository implements IUsersRepository {
     const user = await this.ormRepository.findOne({
       where: { email },
     });
-    console.log(email);
 
     return user;
   }
@@ -49,7 +48,6 @@ class UsersRepository implements IUsersRepository {
     const user = this.ormRepository.create(userData);
 
     await this.ormRepository.save(user);
-    console.log(userData);
 
     return user;
   }
