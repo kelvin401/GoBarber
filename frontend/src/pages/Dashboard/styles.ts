@@ -193,7 +193,8 @@ export const Appointment = styled.div`
     margin-left: auto;
     display: flex;
     align-items: center;
-    color: #999591;
+    color: #fff;
+    width: 70px;
 
     svg {
       color: #ff9000;
