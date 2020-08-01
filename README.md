@@ -24,7 +24,7 @@ Follow the status of the project below
 | **Project**                                                            |     **Status**     |
 | :--------------------------------------------------------------------- | :----------------: |
 | [Backend](https://github.com/kelvin401/GoBarber/tree/master/backend)   |         ✔          |
-| [Frontend](https://github.com/kelvin401/GoBarber/tree/master/frontend) | Under Construction |
+| [Frontend](https://github.com/kelvin401/GoBarber/tree/master/frontend) |         ✔          |
 | [Mobile](https://github.com/kelvin401/GoBarber/tree/master/)           | Under Construction |
 
 ## 👨‍💻 Author
